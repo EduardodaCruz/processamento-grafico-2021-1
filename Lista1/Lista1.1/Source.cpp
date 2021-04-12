@@ -117,15 +117,15 @@ int main()
 
 		// Chamada de desenho - drawcall
 		// Poligono Preenchido - GL_TRIANGLES
-		glUniform4f(colorLoc, 1.0f, 0.0f, 0.0f, 1.0f);
+		//glUniform4f(colorLoc, 1.0f, 0.0f, 0.0f, 1.0f);
 		glUseProgram(shaderID);
 		glBindVertexArray(VAO);
-		glDrawArrays(GL_TRIANGLES, 0, 3);
+		//glDrawArrays(GL_TRIANGLES, 0, 5);
 
 		// Chamada de desenho - drawcall
 		// CONTORNO - GL_LINE_LOOP
 		glUniform4f(colorLoc, 0.0f, 0.0f, 0.0f, 1.0f);
-		glDrawArrays(GL_LINE_LOOP, 0, 3);
+		glDrawArrays(GL_LINE_LOOP, 0, 5);
 		glBindVertexArray(0);
 
 		// Troca os buffers da tela
@@ -207,9 +207,11 @@ int setupGeometry()
 	// Cada atributo do vértice (coordenada, cores, coordenadas de textura, normal, etc)
 	// Pode ser arazenado em um VBO único ou em VBOs separados
 	GLfloat vertices[] = {
-		-0.5, -0.5, 0.0,
-		 0.5, -0.5, 0.0,
-		 0.0, 0.5, 0.0,
+		-1  , -0.5, 0.0,
+		-0.5,  0.5, 0.0,
+		 0.0, -0.5, 0.0,
+		 0.5,  0.5, 0.0,
+		 1.0, -0.5, 0.0,
 	};
 
 	GLuint VBO, VAO;

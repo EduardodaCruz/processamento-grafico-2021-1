@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{623F1718-8BB9-4AA1-BB5C-6FD289199A73}</ProjectGuid>
-    <RootNamespace>Lista1.1</RootNamespace>
+    <ProjectGuid>{77A6F8AA-F365-4B90-A671-EF5029333644}</ProjectGuid>
+    <RootNamespace>Lista1.4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Lista1.1</ProjectName>
+    <ProjectName>Lista1.4</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

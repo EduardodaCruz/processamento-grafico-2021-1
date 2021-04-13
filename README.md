@@ -1,1 +1,1 @@
-# processamento-grafico-2021-1
+# Processamento Gráfico 2021/1
